@@ -14,6 +14,7 @@ app.use(cors(
     origin:["https://project-2whq.vercel.app"],
     methods:["POST","GET"],
     credentials:true
+  }
 ))
 
 const bookingSchema = new mongoose.Schema({
